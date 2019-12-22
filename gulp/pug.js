@@ -53,7 +53,8 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
           errorHandler: plugins.notify.onError({
             title: 'Error converting PUG',
             message: 'Error: <%= error.message %>'
-          })}
+          })
+        }
         ))
         // compile pug to html
         .pipe(
@@ -71,11 +72,11 @@ const pug = ({ gulp, taskTarget, config, plugins, args, browserSync, baseUrl }) 
             }
           })
         )
-        .pipe(plugins.notify({
-          title: 'Pug Starter - CodeTap',
-          message: 'Converting PUG into beautiful HTML'
-        }))
-        .on('error', function(error) {
+        // .pipe(plugins.notify({
+        //   title: 'Pug Starter - CodeTap',
+        //   message: 'Converting PUG into beautiful HTML'
+        // }))
+        .on('error', function (error) {
           browserSync.notify(printError(error), 25000);
           reload = false;
           this.emit('end');

@@ -1,12 +1,7 @@
 //- pre=JSON.stringify(data['about-me'], null, 2)
-.column(span="row")
-  .section__title-wrapper
-    .section__title=data['about-me'].sectionTitle
-.column(span="row" height="10")
-.column(span="row")
-  button.button__disc--red
-    i.icon__youtube
-.column(span="row" height="10")
+- var sectionTitle = data['about-me'].sectionTitle;
+include ../section-title/section-title
+
 .column(span="row")
   h1.about-me__main-title=data['about-me'].mainTitle
 .column(span="row")

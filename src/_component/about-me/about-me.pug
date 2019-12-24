@@ -1,28 +1,29 @@
+//- pre=JSON.stringify(data['about-me'], null, 2)
 .column(span="row")
   .section__title-wrapper
-    .section__title Welcome to My CV
+    .section__title=data['about-me'].sectionTitle
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--red
     i.icon__youtube
 .column(span="row" height="10")
 .column(span="row")
-  h1.about-me__main-title Marian Zburlea
+  h1.about-me__main-title=data['about-me'].mainTitle
 .column(span="row")
-  h2.about-me__sub-title Career Mentor
+  h2.about-me__sub-title=data['about-me'].subTitle
 .column(span="row" height="10")
 .column(span="row")
-  h3.about-me__lead-title About me
+  h3.about-me__lead-title=data['about-me'].leadTitle
 .column(span="row")
   .description-box__with-shadow
-    p.description I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.
-    p.description I'm a proud mentor that helps the masses through CodeTap Academy to jump-start their web developer career and my help reached millions face to face and online.
+    each description in data['about-me'].descriptionList
+      p.description=description
 
 .column(span="row" height="10")
 .column(span="row")
   button.button__pill--blue
     i.icon__download
-    span.button-text Download CV
+    span.button-text=data['about-me'].downloadButtonLabel
 .column(span="row" height="10")
 .column(span="row")
   button.button__disc--green

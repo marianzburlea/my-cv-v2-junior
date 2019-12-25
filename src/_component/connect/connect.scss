@@ -1,3 +1,69 @@
+.connect__radio:checked + .column .connect__disc {
+  background-color: #d52027;
+}
+
+.description-box__footer,
+.description-box__body {
+  padding: 20px;
+}
+
+.description-box__body {
+  border-top: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.description-box__with-arrow {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.description-box__header {
+  padding: 20px;
+  display: flex;
+}
+
+.description-box__paragraph {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.description-box__title {
+  flex-grow: 1;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.connect__disc {
+  display: block;
+  transition: 250ms;
+  background-color: #1875F0;
+  border-radius: 50%;
+  padding-top: 100%;
+  position: relative;
+  color: white;
+  cursor: pointer;
+
+  &[for="connect__label--reset"] {
+    width: 40px;
+    color: white;
+  }
+
+  [class^="icon__"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    font-size: 8vw;
+    justify-content: center;
+    align-items: center;
+  } 
+}
+
 .connect__avatar {
   padding-top: 100%;
   background-color: white;

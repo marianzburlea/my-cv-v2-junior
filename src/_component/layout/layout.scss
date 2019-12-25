@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
 }
 
 .grid {
@@ -25,4 +26,8 @@ body {
 
 .content {
   padding: 0 36px;
+}
+
+input[type="radio"] {
+  display: none;
 }

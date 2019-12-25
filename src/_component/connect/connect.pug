@@ -15,25 +15,28 @@ each social, key in data.connect.socialList
     label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
 
-.column(span="row" height="10")
-.column(span="row")
-  .description-box__with-arrow
-    .description-box__header
-      .description-box__title hhdh
-      .description-box__close
-        input.connect__radio(
-          type="radio"
-          name="connect__label"
-          id=`connect__label--reset`
-        )
-        label(for=`connect__label--reset`).connect__disc
-          i(class=`icon__cross`)
-    .description-box__body
-      p.description-box__paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo labore libero beatae deserunt ab. Quae ad tenetur obcaecati labore est iure veniam ratione, suscipit explicabo magni a inventore temporibus.
-    .description-box__footer
-      button.button__pill--blue
-        i.icon__link
-        span.button-text=data['about-me'].downloadButtonLabel
+each social, key in data.connect.socialList
+  .column(span="row" data-description-box=key+1)
+    .description-box__with-arrow
+      .description-box__header
+        .description-box__title=social.title
+        .description-box__close
+          input.connect__radio(
+            type="radio"
+            name="connect__label"
+            id=`connect__label--reset`
+          )
+          label(for=`connect__label--reset`).connect__disc
+            i(class=`icon__cross`)
+      .description-box__body
+        p.description-box__paragraph=social.description
+      .description-box__footer
+        a(
+          href=social.link
+          target="_blank"
+        ).button__pill--blue
+          i.icon__link
+          span.button-text=social.label
 
 .column(span="row" height="10")
 .column(span="row")

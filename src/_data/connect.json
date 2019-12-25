@@ -5,72 +5,72 @@
     {
       "icon": "codetap",
       "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
+      "description": "This is the Web Developer Factory that shapes top future web developers. It's based on teaching real life web developer encounters and scenarios so students entering a job feel ready and more like a change of address.",
       "label": "codetap.academy",
       "link": "https://codetap.academy"
     },
     {
       "icon": "github",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "GitHub",
+      "description": "There are more then 100 open source projects where you can see me working with HTML, CSS, JavaScript and many more techniques and technologies to help shape and make the web development a better world.",
+      "label": "github.com/marianzburlea",
+      "link": "https://github.com/marianzburlea"
     },
     {
       "icon": "linkedin",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "LinkedIn",
+      "description": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I’m a proud mentor that helps the masses through CodeTap Academy to jump-start their web developer career and my help reached millions face to face and online. 📲",
+      "label": "linkedin.com/in/marianzburlea",
+      "link": "https://www.linkedin.com/in/marianzburlea/"
     },
     {
       "icon": "stackoverflow",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "StackOverflow",
+      "description": "Hundreds of questions answered and in top 5% overall",
+      "label": "s...flow.com/...marian-zburlea",
+      "link": "https://stackoverflow.com/users/2013164/marian-zburlea"
     },
     {
       "icon": "codewars",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "CodeWars",
+      "description": "Algorithms, here I come. I love solving them and I love when the solution can be a one-liner",
+      "label": "codewars.com/users/marianzburlea",
+      "link": "https://www.codewars.com/users/marianzburlea"
     },
     {
       "icon": "udemy",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "Udemy",
+      "description": "I want my help to reach as many people as possible and help them jumpstart their web developer career.",
+      "label": "udemy.com/user/marianzburlea",
+      "link": "https://www.udemy.com/user/marianzburlea/"
     },
     {
       "icon": "facebook",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "FaceBook",
+      "description": "Meet crazy me! I'm all about my family and I love to spend more time with them.",
+      "label": "facebook.com/marianzburlea",
+      "link": "https://facebook.com/marianzburlea"
     },
     {
       "icon": "skype",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
+      "title": "Skype",
+      "description": "Wanna have a call? Let me know!",
+      "label": "marianzburlea",
       "link": "https://codetap.academy"
     },
     {
       "icon": "instagram",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "Instagram",
+      "description": "Pictures, pictures, I love pictures!",
+      "label": "instagram.com/codetapacademy",
+      "link": "https://www.instagram.com/codetapacademy/"
     },
     {
       "icon": "twitter",
-      "title": "CodeTap",
-      "description": "adekjhgae;kjngjkeiar",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "title": "twitter",
+      "description": "Let the birdy give the news!",
+      "label": "twitter.com/codetapacademy",
+      "link": "https://twitter.com/codetapacademy"
     }
   ]
 }

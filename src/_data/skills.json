@@ -1,0 +1,149 @@
+{
+  "sectionTitle": "Skills",
+  "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+  "legend": {
+    "title": "Legend",
+    "itemList": [
+      {
+        "icon": "heart",
+        "color": "red",
+        "label": "Skills I love"
+      },
+      {
+        "icon": "trophy",
+        "color": "orange",
+        "label": "Skills I'm good at"
+      },
+      {
+        "icon": "book",
+        "color": "green",
+        "label": "Skills I'd love to get better at"
+      }
+    ]
+  },
+  "skillTypeList": [
+    {
+      "type": "Front End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "HTML"
+        },
+        {
+          "type": "heart",
+          "label": "CSS"
+        },
+        {
+          "type": "heart",
+          "label": "JavaScript"
+        },
+        {
+          "type": "heart",
+          "label": "React"
+        },
+        {
+          "type": "heart",
+          "label": "Redux"
+        },
+        {
+          "type": "heart",
+          "label": "Styled Components"
+        },
+        {
+          "type": "trophy",
+          "label": "Sass"
+        },
+        {
+          "type": "trophy",
+          "label": "Less"
+        },
+        {
+          "type": "trophy",
+          "label": "Material UI"
+        },
+        {
+          "type": "trophy",
+          "label": "SEO"
+        }
+      ]
+    },
+    {
+      "type": "Back End",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "Pug"
+        },
+        {
+          "type": "heart",
+          "label": "NodeJS"
+        },
+        {
+          "type": "heart",
+          "label": "FireBase"
+        },
+        {
+          "type": "trophy",
+          "label": "Git"
+        },
+        {
+          "type": "trophy",
+          "label": "Linux"
+        },
+        {
+          "type": "trophy",
+          "label": "Rest"
+        },
+        {
+          "type": "trophy",
+          "label": "MySQL"
+        },
+        {
+          "type": "book",
+          "label": "SWS"
+        },
+        {
+          "type": "book",
+          "label": "BlockChain"
+        },
+        {
+          "type": "book",
+          "label": "Elastic Search"
+        },
+        {
+          "type": "book",
+          "label": "GraphQL"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "skillList": [
+        {
+          "type": "heart",
+          "label": "Windows"
+        },
+        {
+          "type": "heart",
+          "label": "Linux"
+        },
+        {
+          "type": "heart",
+          "label": "Mac OSx"
+        },
+        {
+          "type": "trophy",
+          "label": "Jira"
+        },
+        {
+          "type": "trophy",
+          "label": "Agile"
+        },
+        {
+          "type": "trophy",
+          "label": "Rally"
+        }
+      ]
+    }
+  ]
+}
